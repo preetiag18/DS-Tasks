@@ -2,6 +2,8 @@
 
 This application explains the behaviour of different data structures like queue, stack etc.
 
+It can be accessed at https://genuine-sfogliatella-8011b1.netlify.app/
+
 ![Screenshot](Screenshot_Home.png)
 
 ## How to run the app locally
