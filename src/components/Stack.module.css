@@ -1,0 +1,55 @@
+.app {
+  border: #5cccfc 2px solid;
+  margin: 5rem 10rem;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  margin: 2rem 0;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.itemText {
+  display: flex;
+  align-items: center;
+
+  margin: 0 2rem;
+}
+
+.item {
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 2px;
+  padding: 15px;
+  border-radius: 5px 5px 5px;
+  border: 1px solid black;
+  min-width: 3rem;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #093747;
+  color: white;
+  cursor: pointer;
+  margin: 2rem;
+  display: block;
+}
+.btn:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
